@@ -1,0 +1,99 @@
+.top_text
+{
+  color: green;
+  font-size:20px;
+}
+.brand_img {
+   width: 10px;
+   height : 5px;
+}
+.logo img {
+width: 100% \9; /*Force IE10 and below to size SVG images correctly*/
+max-width: 100%;
+}
+.bg_img {
+  background-image:url('../media/front.png');
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center;
+}
+.centre_block{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+.item_carousel{
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.block_text{
+  font-size: 2.6vw;
+}
+.heading_text{
+  text-align: center;
+  font-size: 2vw;
+}
+.sub-heading_text{
+  text-align: center;
+  font-size: 2vw;
+}
+.caption_text{
+  text-align: center;
+  font-size: 1.4vw;
+}
+.icon_dimension{
+  width : 40%;
+  height : 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+.bg_image{
+  background-image: url(../media/map.png) ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+  height: 100%;
+  width: 100%;
+}
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+.onboard{
+width:100%;
+height:100%;
+background: url(img/image.jpg) 50% 0 no-repeat;
+background-size:cover;
+}
+@media screen and (min-width: 1024px){
+    .responsive-image{
+        background-image: url('../media/map.png');
+    }
+}
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .responsive-image{
+        background-image: url('../media/map.png');
+    }
+}
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .responsive-image{
+        background-image: url('../media/map.png');
+    }
+}
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .responsive-image{
+        background-image: url('../media/map.png');
+    }
+}
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .responsive-image{
+        background-image: url('../media/map.png');
+    }
+}
