@@ -97,3 +97,21 @@ background-size:cover;
         background-image: url('../media/map.png');
     }
 }
+
+.contact-caption {
+        width:80%;
+        top: 25%;
+        position: absolute;
+}
+
+.map-thumbnail {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  padding: 60px;
+}
+
+.colored-div {
+    background-color: bisque;
+    margin-bottom: 25px;
+    padding: 15px;
+}
