@@ -110,4 +110,8 @@ background-size:cover;
   padding: 60px;
 }
 
-.
+.colored-div {
+    background-color: bisque;
+    margin-bottom: 25px;
+    padding: 15px;
+}
