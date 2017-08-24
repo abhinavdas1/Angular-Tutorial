@@ -115,3 +115,7 @@ background-size:cover;
     margin-bottom: 25px;
     padding: 15px;
 }
+
+.global-map {
+  background: url('../media/map.png');
+}
